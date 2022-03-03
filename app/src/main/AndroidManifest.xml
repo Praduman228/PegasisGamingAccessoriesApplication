@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pegasisgamingaccessories">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/play_store_512"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/play_store_512"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PegasisGamingAccessories">
+        <activity
+            android:name=".SubmitPage"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".page7"
+            android:exported="false"
+            android:label="Dragonwar ELE-G9 Thor Wired BlueTrack and Blue Sensor Gaming Mouse"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".page6"
+            android:exported="false"
+            android:label="PREORDER COSMIC BYTE OBERON 7.1 RGB GAMING HEADPHONE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".page5"
+            android:exported="false"
+            android:label="Cosmic Byte GS430 Gaming wired"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".page4"
+            android:exported="false"
+            android:label="Redgear A-10 Wired Gaming Mouse with RGB LED, Lightweight and Durable Design, DPI Upto 2400, Compatible with Windows and MAC"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Page3"
+            android:exported="false"
+            android:label="Cosmic Byte Equinox Polaris 7.1 Surround RGB USB Gaming Headset for PC, PS4, PS5 (Black)"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Page2"
+            android:exported="false"
+            android:label="Redgear Cosmo 7.1 USB Wired Gaming Headphones"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".page1"
+            android:exported="false"
+            android:label="Redgear Pro Wireless Gamepad"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
